@@ -15,6 +15,7 @@ Le Gout es un restaurant ficticio de comida francesa hecho con Bootstrap. Posee 
 {
 "Technologies used:" "HTML5",
                      "CSS3",
+                     "JS",
                      "Bootstrap"
 }
 ```
