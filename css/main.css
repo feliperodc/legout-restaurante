@@ -1,1 +1,45 @@
-@import url(https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&display=swap);@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic);@import url(styles-min.css);#about h3,header.masthead .h1,header.masthead h1{font-family:'Cormorant SC',Merriweather,sans-serif}#about,header.masthead{height:100vh}#about h3{font-weight:700;margin-top:5rem}.map{padding-bottom:2rem}.map iframe{padding:0;margin-top:2rem;height:30rem;width:100%}#contact{margin-top:0;padding-top:1rem;padding-bottom:12rem}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic');
+
+
+@import url(styles.css); /*Bootstrap*/
+/*
+
+#5e5d22
+*/
+
+header.masthead{
+    height: 100vh;
+}
+
+header.masthead h1, header.masthead .h1{
+    font-family: Cormorant SC, 'Merriweather', sans-serif;
+}
+
+#about{
+    height: 100vh;
+}
+
+#about h3{
+    font-weight: 700;
+    font-family: Cormorant SC, 'Merriweather', sans-serif;
+    margin-top: 5rem;
+}
+
+.map{
+    padding-bottom: 2rem;
+}
+
+.map iframe{
+    padding: 0;
+    margin-top: 2rem;
+    height: 30rem;
+    width: 100%;
+}
+
+#contact{
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 12rem;
+}
